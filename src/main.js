@@ -3,8 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import '@/assets/format.css'
-Vue.config.productionTip = false
+import 'leaflet/dist/leaflet.css'
 
+Vue.config.productionTip = false
 new Vue({
   router,
   store,

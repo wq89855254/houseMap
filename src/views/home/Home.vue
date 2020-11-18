@@ -1,7 +1,9 @@
 <template>
     <div class="homeContain">
         <Header></Header>
-        <div class="main"></div>
+        <div class="main">
+            <router-view></router-view>
+        </div>
     </div>
 </template>
 
